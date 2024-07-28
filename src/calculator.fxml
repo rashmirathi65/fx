@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="361.0" style="-fx-background-color: #555555;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorC">
+   <children>
+      <GridPane hgap="2.0" layoutX="4.0" layoutY="258.0" prefHeight="261.0" prefWidth="349.0" vgap="2.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#four" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="4" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#three" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="3" textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#two" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="2" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#six" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="6" textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#minus" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="-" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#multiplication" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="X" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#nine" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="9" textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#one" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="1" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="n!" textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#division" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="div" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="exp" textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#modulus" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="mod" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="ln" textFill="SEASHELL" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="log" textFill="SEASHELL" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#delete" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="delete" textFill="SEASHELL" GridPane.columnIndex="4">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#clear" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="C" textFill="SEASHELL" GridPane.columnIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#five" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="5" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#eight" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="8" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="+/-" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="10^x" textFill="SEASHELL" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#seven" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="7" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text=")" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="|x|" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="e" textFill="SEASHELL" GridPane.columnIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="(" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="root(x)" textFill="SEASHELL" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="x^y" textFill="SEASHELL" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="1/x" textFill="SEASHELL" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="2^nd" textFill="SEASHELL">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#zero" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="0" textFill="SEASHELL" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#plus" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="+" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="x^2" textFill="SEASHELL" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#equals" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #DA70D6;" text="=" textFill="SEASHELL" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#dot" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #777777;" text="." textFill="SEASHELL" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="73.0" style="-fx-background-color: #666666;" text="pi" textFill="SEASHELL" GridPane.columnIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <MenuBar layoutX="4.0" layoutY="224.0" prefHeight="27.0" prefWidth="349.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Trigonometry">
+            <items>
+                  <Menu mnemonicParsing="false" text="2^nd">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="sin^-1" />
+                        <MenuItem mnemonicParsing="false" text="cos^-1" />
+                        <MenuItem mnemonicParsing="false" text="tan^-1" />
+                        <MenuItem mnemonicParsing="false" text="cot^-1" />
+                        <MenuItem mnemonicParsing="false" text="sec^-1" />
+                      <MenuItem mnemonicParsing="false" text="cosec^-1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="hyp">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="sinh" />
+                        <MenuItem mnemonicParsing="false" text="cosh" />
+                        <MenuItem mnemonicParsing="false" text="tanh" />
+                        <MenuItem mnemonicParsing="false" text="coth" />
+                        <MenuItem mnemonicParsing="false" text="sech" />
+                      <MenuItem mnemonicParsing="false" text="cosech" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" text="sin" />
+                  <MenuItem mnemonicParsing="false" text="cos" />
+                  <MenuItem mnemonicParsing="false" text="tan" />
+                  <MenuItem mnemonicParsing="false" text="cot" />
+                  <MenuItem mnemonicParsing="false" text="sec" />
+              <MenuItem mnemonicParsing="false" text="cosec" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Function">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="|x|" />
+                  <MenuItem mnemonicParsing="false" text="&gt;x" />
+                  <MenuItem mnemonicParsing="false" text="&lt;x" />
+              <MenuItem mnemonicParsing="false" text="rand" />
+                  <MenuItem mnemonicParsing="false" text="-&gt;dms" />
+                  <MenuItem mnemonicParsing="false" text="-&gt;deg" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="label" alignment="BOTTOM_RIGHT" layoutX="3.0" layoutY="146.0" prefHeight="78.0" prefWidth="349.0" text="0" textFill="SEASHELL">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <AnchorPane layoutX="6.0" layoutY="6.0" prefHeight="36.0" prefWidth="349.0">
+         <children>
+            <Button layoutX="276.0" layoutY="1.0" mnemonicParsing="false" onAction="#history" prefHeight="39.0" prefWidth="69.0" text="history" />
+            <Label layoutX="3.0" layoutY="2.0" prefHeight="36.0" prefWidth="121.0" text="Scientific" textFill="SEASHELL">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
